@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+
+#titulo-superior{
+    
+    width: 1024px;
+    height: 72px;
+    margin-left: 62px;
+    padding-top: 208px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    color : #FFFFFF
+}
+
+
+#texto-superior{
+     width: 1024px;
+    height: 28px;
+    margin-left: 62px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+
+}
+
+
+#menu-superior{
+width: 1550px;
+height: 475px;
+margin: 0;
+background-color: #303030;
+}
+
+
+#menu-informacional{
+display: grid;
+grid-auto-flow: column;
+columns : auto;
+width: 1550px;
+height: 229px;
+background-color: #f9f9f9;
+}
+
+
+.texto{
+
+width: 361px;
+height: 88px;
+margin-top: 96px;
+margin-left: 99px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 28px;
+}
+
+
+#menu-descricao{
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+}
+
+
+#imagem{
+width: 500px;
+height: 605px;
+border-radius: 30px ;
+margin-top: 82px;
+margin-left: 64px;;
+}
+
+
+#texto-descricao{
+    width: 735px;
+    height: 161px;
+    margin-left: 77px;
+    margin-top: 304px;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+
+
+#frase-descricao{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+#formulario{
+
+    text-align: center;
+    margin-top: 200px;
+    width: 1550px;
+    height: 638px;
+    background-color: #303030 ;
+}
+
+#titulo-formulario{
+
+    color: #FFFFFF;
+    padding-top: 87px;
+    }
+
+
+input{ 
+      width: 508px ;
+      height: 72px;
+      background-color: #FFFFFF;
+      margin-top: 48px;
+      border-radius: 10px;
+}
+
+.edit-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0,0,0,0.3);   
+}
+
+
+button{
+
+    width: 286px;
+    height: 74px;
+    margin-top: 88px;
+    background-color: #c07212;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #bc6902;
+    color: white;
+    transform: translate(- 7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.5s;
+
+}
+
+#texto-button{
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height : 30px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
